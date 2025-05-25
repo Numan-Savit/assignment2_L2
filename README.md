@@ -1,6 +1,6 @@
 # Question-1
 1. What is PostgreSQL?
-   __________________________________________________________________________________________
+  
 
 3. PostgreSql হলো একটি পাওয়ারফুল ওপেন সোর্স অবজেক্ট রিলেশনাল ডাটাবেস ম্যানেজমেন্ট সিষ্টেম (ORDBMS)।
 4. এটি ব্যবহার করা হয় বিভিন্ন ধরণের অ্যাপ্লিকেশনের ডেটা সংরক্ষণ, পরিচালনা, এবং প্রসেস করার জন্য।
@@ -10,12 +10,12 @@
 . PostgreSQL-এর গুরুত্বপূর্ণ বৈশিষ্ট্য:
   বৈশিষ্ট্য	বর্ণনা
 
-১. Open Source	এটি সম্পূর্ণ ফ্রি এবং ওপেন সোর্স।
-২. Relational Database	এটি রিলেশনাল ডেটাবেস সিস্টেম, যেখানে ডেটা টেবিল আকারে সংরক্ষিত হয়।
-৩. SQL Support	এটি Standard SQL-কে সম্পূর্ণভাবে সমর্থন করে।
-৪. Extensible	আমি  চাইলে নিজের ফাংশন, ডেটা টাইপ, বা অপারেটর তৈরি করতে পারবো ।
-৫. ACID Compliance	এটি ACID properties (Atomicity, Consistency, Isolation, Durability) অনুসরণ করে — যার ফলে ডেটা সঠিকভাবে এবং নিরাপদে সংরক্ষিত হয়।
-৬. Multi-Version Concurrency Control (MVCC)	একাধিক ইউজার একসাথে ডেটা অ্যাক্সেস করলেও সমস্যা হয় না।
+1. Open Source	এটি সম্পূর্ণ ফ্রি এবং ওপেন সোর্স।
+2. Relational Database	এটি রিলেশনাল ডেটাবেস সিস্টেম, যেখানে ডেটা টেবিল আকারে সংরক্ষিত হয়।
+3. SQL Support	এটি Standard SQL-কে সম্পূর্ণভাবে সমর্থন করে।
+4. Extensible	আমি  চাইলে নিজের ফাংশন, ডেটা টাইপ, বা অপারেটর তৈরি করতে পারবো ।
+5. ACID Compliance	এটি ACID properties (Atomicity, Consistency, Isolation, Durability) অনুসরণ করে — যার ফলে ডেটা সঠিকভাবে এবং নিরাপদে সংরক্ষিত হয়।
+6. Multi-Version Concurrency Control (MVCC)	একাধিক ইউজার একসাথে ডেটা অ্যাক্সেস করলেও সমস্যা হয় না।
 
 
 . PostgreSQL কোথায় ব্যবহৃত হয়?
@@ -53,7 +53,7 @@
 
 4.Command Line Interface (psql)
 
-__________________ x _____________________________________________
+
 
 
 
@@ -62,7 +62,6 @@ __________________ x _____________________________________________
 
 # Question-2
 2.Explain the Primary Key and Foreign Key concepts in PostgreSQL.
-_______________________________________________________________________
 
 . Primary Key কী?
 
@@ -139,7 +138,6 @@ CREATE TABLE courses_enrolled (
  3.Parent টেবিল ডিলিট করলে Child টেবিলেও cascading delete করতে চাইলে ON DELETE CASCADE দিতে হয়
 
 
- ______________________ x ____________________________
 
 
 
@@ -148,8 +146,7 @@ CREATE TABLE courses_enrolled (
 
  # Question-3
    3.What is the difference between the VARCHAR and CHAR data types?
-      __________________________________________________
-
+     
  1. VARCHAR (Variable Character)
  2. VARCHAR হল ভ্যারিয়েবল দৈর্ঘ্যের স্ট্রিং ডেটা টাইপ।
    এখানে যতটুকু চরিত্র দরকার, ততটুকুই মেমোরি ব্যবহার হবে।
@@ -217,7 +214,7 @@ CREATE TABLE employees (
 
   VARCHAR = Variable |  CHAR = Constant
 
-____________ x ______________________
+
 
 
 
@@ -225,7 +222,6 @@ ____________ x ______________________
 
 # Question-4
   4.Explain the purpose of the WHERE clause in a SELECT statement.
-         _____________________________________________
          
 . WHERE clause হল SQL-এর একটি অংশ যেটা ব্যবহার করা হয় ডেটা ফিল্টার করার জন্য।
 . এর মাধ্যমে  শুধু নির্দিষ্ট শর্ত পূরণ করা রেকর্ডগুলো নির্বাচন করা যাই ।
@@ -299,7 +295,6 @@ id	          name	                  department	              salary
 1	          Alice                  	HR	                    40000
 
 
-___________________ x _____________________________________
 
 
 
@@ -307,7 +302,7 @@ ___________________ x _____________________________________
 
 # Question-5
 5.How can you modify data using UPDATE statements?
-       ________________________________
+       
 
 . UPDATE স্টেটমেন্ট ব্যবহার করে আমরা ডেটাবেজের টেবিলের এক বা একাধিক রেকর্ডের মান (value) পরিবর্তন করতে পারি।
 
